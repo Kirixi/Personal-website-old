@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
-  return <div className='text-center font-bold text-[#2c2bfa]'> hellow</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
