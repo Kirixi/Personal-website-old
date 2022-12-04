@@ -41,7 +41,7 @@ const Navbar = () => {
         <li className='py-6 text-3xl'>Projects</li>
       </ul>
 
-      <div className='flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1d1bf9]'>
             <a
