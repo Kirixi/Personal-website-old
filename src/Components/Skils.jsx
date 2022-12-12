@@ -8,7 +8,7 @@ const Skils = () => {
           <p className='text-4xl font-bold inline border-b-4 border-red-600 '>
             Experience
           </p>
-          <h2>Technologies I have worked with</h2>
+          <h2 className='py-4 text-2xl'>Technologies I have worked with: </h2>
         </div>
       </div>
 
