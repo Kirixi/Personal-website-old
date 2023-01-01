@@ -24,7 +24,7 @@ const Skils = () => {
       </div>
 
       <div class=' max-w-[1000px] mx-auto p-4 w-full flex flex-wrap space-x-4 justify-center '>
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={JS}
@@ -32,7 +32,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={CSHARP}
@@ -40,7 +40,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={JAVA}
@@ -48,7 +48,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 bg-white shadow-sm'
             src={NODE}
@@ -56,7 +56,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={CPP}
@@ -64,7 +64,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={PY}
@@ -72,7 +72,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={RE}
@@ -80,7 +80,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={TW}
@@ -88,7 +88,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={AWS}
@@ -96,7 +96,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={DOCKER}
@@ -104,7 +104,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='relative w-32 h-32'>
+        <div class='w-32 h-32'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={CCI}
