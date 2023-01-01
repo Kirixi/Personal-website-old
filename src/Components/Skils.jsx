@@ -2,7 +2,7 @@ import React from 'react';
 import NODE from '../images/node.png';
 import CSHARP from '../images/C#.png';
 import JS from '../images/javascript.png';
-import JAVA from '../images/538-5380039_logo-java-clipart-png-download-java-circle-icon.png';
+import JAVA from '../images/java.ico';
 import PY from '../images/python.jpg';
 import AWS from '../images/aws.png';
 import CPP from '../images/Cplusplus.png';
@@ -23,8 +23,8 @@ const Skils = () => {
         </div>
       </div>
 
-      <div class=' max-w-[1000px] mx-auto p-4 w-full flex flex-wrap space-x-4 justify-center '>
-        <div class='w-32 h-32'>
+      <div class=' max-w-[1000px] mx-auto p-4 w-full flex flex-wrap space-x-4 gap-y-3 justify-center '>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={JS}
@@ -32,7 +32,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={CSHARP}
@@ -40,15 +40,15 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
-            class='rounded-full border border-gray-100 shadow-sm'
+            class='rounded-full border border-gray-100 shadow-sm bg-slate-200'
             src={JAVA}
             alt='Java icon'
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 bg-white shadow-sm'
             src={NODE}
@@ -56,7 +56,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={CPP}
@@ -64,7 +64,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={PY}
@@ -72,7 +72,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={RE}
@@ -80,7 +80,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={TW}
@@ -88,7 +88,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={AWS}
@@ -96,7 +96,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={DOCKER}
@@ -104,7 +104,7 @@ const Skils = () => {
           />
         </div>
 
-        <div class='w-32 h-32'>
+        <div class='w-24 h-24'>
           <img
             class='rounded-full border border-gray-100 shadow-sm'
             src={CCI}
