@@ -7,7 +7,6 @@ import {
   FaInstagram,
   FaStackOverflow,
 } from 'react-icons/fa';
-import { BsStackOverflow } from 'react-icons/bs';
 import { useState } from 'react';
 
 const Navbar = () => {
