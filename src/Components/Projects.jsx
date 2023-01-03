@@ -26,16 +26,19 @@ const Projects = () => {
                 AI Compeition
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a
+                  href='https://github.com/Kirixi/Pacman-CTF-AI'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
-                <a href=''>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Deatils
-                  </button>
-                </a>
+
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Deatils
+                </button>
               </div>
             </div>
           </div>
