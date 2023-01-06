@@ -8,6 +8,7 @@ import {
   FaStackOverflow,
 } from 'react-icons/fa';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,10 +18,22 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[88px] flex justify-center items-center px-4 bg-[#04038f] text-gray-300'>
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        {/* <li>About</li> */}
+        <li>
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
       </ul>
 
       <div onClick={handleClick} className='md:hidden z-10'>
