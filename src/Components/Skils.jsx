@@ -22,8 +22,10 @@ const Skils = () => {
           <h2 className='py-4 text-2xl'>Technologies I have worked with: </h2>
         </div>
         <br />
+        <br />
+        <br />
         <div className='flex flex-wrap space-x-4 gap-y-3 justify-center'>
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={JS}
@@ -31,15 +33,15 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
-              class='rounded-full border border-gray-100 shadow-sm'
+              class='rounded-full border border-gray-100 shadow-sm '
               src={CSHARP}
               alt='C# icon'
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm bg-slate-200'
               src={JAVA}
@@ -47,7 +49,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 bg-white shadow-sm'
               src={NODE}
@@ -55,7 +57,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={CPP}
@@ -63,7 +65,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={PY}
@@ -71,7 +73,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={RE}
@@ -79,7 +81,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={TW}
@@ -87,7 +89,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={AWS}
@@ -95,7 +97,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={DOCKER}
@@ -103,7 +105,7 @@ const Skils = () => {
             />
           </div>
 
-          <div class='w-24 h-24'>
+          <div class='w-24 h-24 transition duration-500 hover:scale-125'>
             <img
               class='rounded-full border border-gray-100 shadow-sm'
               src={CCI}
@@ -112,9 +114,8 @@ const Skils = () => {
           </div>
         </div>
       </div>
-
-      {/* <div class=' max-w-[1000px] mx-auto p-4 w-full  '>
-        
+      {/* <div className='transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center'>
+        <p className='text-lg'>Hover over me! </p>
       </div> */}
     </div>
   );
