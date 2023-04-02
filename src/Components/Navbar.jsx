@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  FaBars,
-  FaTimes,
-  FaLinkedin,
-  FaGithub,
-  FaInstagram,
-  FaStackOverflow,
-} from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 
@@ -67,43 +60,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1d1bf9]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300 '
-              href='https://www.linkedin.com/in/yeu-haw-teh-9a34ab222/'
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300 '
-              href='https://github.com/Kirixi'
-            >
-              GitHub <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[190px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300 bg-[#E1306C]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300 '
-              href='https://www.instagram.com/jonnoo.t/'
-            >
-              Instagram <FaInstagram size={30} />
-            </a>
-          </li>
-          <li className='w-[240px] h-[60px] flex justify-between items-center ml-[-180px] hover:ml-[-10px] duration-300 bg-[#ef8236]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://stackoverflow.com/users/17212169/zemelon?tab=profile'
-            >
-              StackOverflow <FaStackOverflow size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 };

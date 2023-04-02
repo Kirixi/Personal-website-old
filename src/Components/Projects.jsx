@@ -3,6 +3,7 @@ import pacman from '../images/pacman.png';
 import LAN from '../images/Agile-loop-now.png';
 import bookeroo from '../images/Bookeroo.png';
 import personal from '../images/personal.png';
+import shuttleday from '../images/Shuttleday.png';
 
 const Projects = () => {
   return (
@@ -44,7 +45,7 @@ const Projects = () => {
                 </a>
 
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Deatils
+                  Details
                 </button>
               </div>
             </div>
@@ -71,7 +72,7 @@ const Projects = () => {
                 </a>
 
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Deatils
+                  Details
                 </button>
               </div>
             </div>
@@ -97,7 +98,7 @@ const Projects = () => {
                 </a>
 
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Deatils
+                  Details
                 </button>
               </div>
             </div>
@@ -123,6 +124,31 @@ const Projects = () => {
 
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Deatils
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${shuttleday})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            <div className='opacity-0 group-hover:opacity-100 '>
+              <h3 className='text-2xl font-bold text-white tracking-wider text-center'>
+                Shuttleday
+              </h3>
+              <div className='pt-8 text-center'>
+                <a
+                  href='https://github.com/shuttleday/shuttleday'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Details
                 </button>
               </div>
             </div>
